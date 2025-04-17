@@ -4,4 +4,4 @@ RUN apk add ioping
 RUN apk add fio
 RUN apk add traceroute
 EXPOSE 8080
-ENTRYPOINT [ "/bin/bash"]
+CMD [ "/bin/sh", "ping redis-wxc7.railway.internal"]
