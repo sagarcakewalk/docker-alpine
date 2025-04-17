@@ -4,4 +4,4 @@ RUN apk add ioping
 RUN apk add fio
 RUN apk add traceroute
 EXPOSE 8080
-CMD [ "/bin/sh"]
+ENTRYPOINT [ "/bin/sh"]
